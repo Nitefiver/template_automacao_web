@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import time
 import random
+import anticaptchaofficial
 
 class WebAutomation:
     def __init__(self, driver_path=None):
